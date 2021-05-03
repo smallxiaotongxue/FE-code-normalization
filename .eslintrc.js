@@ -17,5 +17,14 @@ module.exports = {
     'vue',
   ],
   rules: {
+    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'prefer-const': 'off',
+    'dot-notation': 'off',
+    'import/no-named-as-default-member': 'off',
+    'spaced-comment': 'off',
+    'no-unused-vars': 'off',
+    'consistent-return': 'off'
   },
 };
